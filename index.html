@@ -149,6 +149,70 @@
           <!--第二张卡片-->
 
         </div>
+      </div>
+<br>
+      <div class="mdui-row">
+      <div class="mdui-col-sm-6 mdui-col-md-4">
+        <div class="mdui-card mdui-color-blue-200">
+          <div class="mdui-card-media">
+            <img src="/img/hit-plane.png" height="50%"/>
+            <div class="mdui-card-menu">
+
+              <!--分享按钮复制-->
+              <style type="text/css">
+                .wrapper {
+                  position: relative;
+                }
+
+                #input2 {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  opacity: 0;
+                  z-index: -10;
+                }
+              </style>
+
+<div class="wrapper">
+  <p hidden id="text2">我正在二排游戏中心打飞机，点击链接开始游玩吧 https://luo-hit-plane.vercel.app</p>
+  <textarea id="input2">这是幕后黑手</textarea>
+  <button class="mdui-btn mdui-btn-icon mdui-text-color-dark mdui-shadow-5 mdui-hoverable" onclick="copyText2();mdui.snackbar({
+message: '已复制链接',
+position: 'top'
+})"><i class="mdui-icon material-icons">share</i></button>
+</div>
+<script type="text/javascript">
+  function copyText2() {
+    var text2 = document.getElementById("text2").innerHTML;
+    var input = document.getElementById("input2");
+    input.value = text2;
+    input.select();//选中文本
+    document.execCommand("copy");
+  };
+</script>
+
+              <!--分享复制 end-->
+
+            </div>
+          </div>
+          <div class="mdui-card-primary">
+            <div class="mdui-card-primary-title mdui-text-color-black-text">丽萍打飞机</div>
+            <div class="mdui-card-primary-subtitle mdui-text-color-black-text">被捉鬼的钟馗给捉去了</div>
+          </div>
+          <div class="mdui-card-content">滚早点滚远点</div>
+          <div class="mdui-card-actions">
+            <button onclick="javascript:window.location.href='https://luo-hit-plane.vercel.app/'"
+              class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent mdui-color-red mdui-shadow-7 mdui-hoverable">开始游玩</button>
+            <button
+              class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent mdui-color-blue-400 mdui-shadow-7 mdui-hoverable">了解详情</button>
+          </div>
+        </div>
+        <!--第二张卡片-->
+
+      </div>
+    </div>
+  
+
 
 </body>
 
