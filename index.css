@@ -7,9 +7,7 @@
 html,
 body {
     overflow-x: hidden !important;
-    overflow-y: auto;
-    width: 100%;
-    touch-action: none;
+    width: 100vw;
     touch-action: pan-y;
 }
 
@@ -61,7 +59,7 @@ section,
 
 
 #img-one {
-    background-image: url('img\eatLuo.jpg');
+    background-image: url('img/eatLuo.jpg');
     background-size: cover;
 }
 
