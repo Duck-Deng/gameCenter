@@ -70,17 +70,17 @@ section,
 }
 
 .content-one {
-    background: url('https://s1.ax1x.com/2023/02/13/pSoNe5q.jpg') no-repeat fixed center;
+    background: url('/img/eatLuo.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
 .content-two {
-    background: url('https://s1.ax1x.com/2023/02/13/pSoNnP0.jpg') no-repeat fixed center;
+    background: url('/img/zhangBall.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
 .content-three {
-    background: url('https://s1.ax1x.com/2023/02/13/pSoNuGV.jpg') no-repeat fixed center;
+    background: url('/img/hitLuo.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
