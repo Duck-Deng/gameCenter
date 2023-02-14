@@ -38,7 +38,7 @@ section,
 }
 
 #footer {
-    background-color: rgba(0, 188, 212, 0.6);
+    background-color: #fff;
     height: 100%;
     color: #fff;
     font-size: 20vh;
@@ -60,7 +60,7 @@ section,
 
 
 #img-one {
-    background-image: url('https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN');
+    background-image: url('https://api.dujin.org/bing/1920.php');
     background-size: cover;
 }
 
