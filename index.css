@@ -61,7 +61,7 @@ section,
 
 #img-one {
     /* Bing 壁纸 */
-    background-image: url('https://api.dujin.org/bing/1920.php');
+    background-image: url('https://api.dujin.org/bing/m.php');
     background-size: cover;
 }
 
